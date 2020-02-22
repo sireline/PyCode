@@ -1,0 +1,5 @@
+T = int(input())
+h = divmod(T, 3600)
+m = divmod(h[1], 60)
+s = divmod(m[1], 60)
+print(f'{h[0]}:{m[0]}:{s[1]}')
