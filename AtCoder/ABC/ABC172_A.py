@@ -1,0 +1,5 @@
+# S = input()
+N = int(input())
+print(N+N**2+N**3)
+# print('Yes' if else 'No')
+# print('YES' if else 'NO')
